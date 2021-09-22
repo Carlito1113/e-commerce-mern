@@ -1,7 +1,16 @@
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 const App = () => {
-  return <>
-   <h1>Welcome to the place of stuff</h1>
-  </>
+  return (
+    <>
+      <Header />
+      <main>
+        <h1>Welcome to the place of stuff</h1>
+      </main>
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
