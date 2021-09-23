@@ -4,11 +4,18 @@
   "main": "index.js",
   "repository": "git@github.com:Carlito1113/e-commerce-mern.git",
   "scripts": {
-    "start": "node backend/server"
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "cd frontend && yarn start",
+    "dev": "concurrently \"yarn run server \" \"yarn run client\" "
   },
   "author": "Carlito Algarin <carlito1113@yahoo.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.13"
   }
 }
