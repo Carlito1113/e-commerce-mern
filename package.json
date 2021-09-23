@@ -2,6 +2,7 @@
   "name": "e-commerce-mern",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:Carlito1113/e-commerce-mern.git",
   "scripts": {
     "start": "node backend/server",
