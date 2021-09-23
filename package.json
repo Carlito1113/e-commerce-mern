@@ -1,0 +1,14 @@
+{
+  "name": "e-commerce-mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Carlito1113/e-commerce-mern.git",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "author": "Carlito Algarin <carlito1113@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
